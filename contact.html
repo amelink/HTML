@@ -1,0 +1,48 @@
+<!DOCTYPE html> = HTML 5
+<html> The html element represents the root of an HTML document. Il représenent la racine du document
+    <head> représente tous les méta-Data (données cachées) du document
+        <meta charset="utf-8"> character set = encodage des caractères
+        <title>Hello</title> le titre est requis avec le head
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans:400i,700,700i,800" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body> corp du contenu
+       <header>
+           <a href="index.html" id="logo">
+               <h1>My First Heading</h1> h1 heading titre de paragraphe niveau 1
+               <h2>My First Heading</h2> h2 heading titre de paragraphe niveau 2
+           </a>
+           <nav>
+               <ul>
+                   <li><a href="index.html">Portfolio</a></li>
+                   <li><a href="about.html">About</a></li>
+                   <li><a href="contact.html" class="selected">Contact</a></li>
+               </ul>
+           </nav>
+       </header>
+       <div id="wrapper">
+indentation
+           <section id="primary"> <!-- les 2 sections vont créer 2 colonnes -->
+                <h3> General information </h3>
+                <p> Please don't hesitate to contact ! </p>
+                <p>Please only use phone contact in case of emergency! </p>
+           </section>
+           <section id="secondary">
+                <h3> contact details </h3>
+                <ul class="contact-info">
+                     <li class="phone"> <a href="tel:555-5432">555-5432</a></li> <!--"tel:555-5432" tel permet d'appeler directement sur un mobile browser -->
+                     <li class="mail"><a href="mailto:amelie@domain">amelie@domain</a></li> <!--mailto:amelie@domain mailto permet d'envoyer un email -->
+                     <li class="twitter"> <a href="http://twitter.com/intent/tweet?screen_name=amelink">@amelink</a> </li> <!--http://twitter.com/intent/tweet?screen_name=amelink ce lien va nous ramener sur la fenetre pr tweeter -->
+                </ul>
+           </section>
+           <footer>
+               <a href="http:twitter.com"><img src="img/twitter-wrap.png" alt="twitter logo" class="social-icon"></a>
+               <a href="http:facebook.com"><img src="img/facebook-wrap.png" alt="facebook logo" class="social-icon"></a>
+                 <p>&copy; Paragraphe 2</p>
+           </footer>
+     </div>
+   </body>
+</html>
